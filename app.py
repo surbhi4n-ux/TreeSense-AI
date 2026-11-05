@@ -27,7 +27,7 @@ st.markdown("""
 
 /* Main application */
 .stApp {
-    background-color: #f000000;
+    background-color: #f4f8f3;
 }
 
 /* Main headings */
@@ -121,7 +121,28 @@ div[data-testid="stMetric"] {
 # SESSION STATE
 # =========================================================
 
+if "tree_inventory" not in st.session_state:
 
+    st.session_state.tree_inventory = pd.DataFrame(
+        columns=[
+            "Tree ID",
+            "Species",
+            "Health",
+            "Leaf Colour",
+            "Canopy Density",
+            "Disease Symptoms",
+            "Trunk Damage",
+            "Pest Infestation",
+            "Latitude",
+            "Longitude",
+            "Survey Date"
+        ]
+    )
+
+
+# =========================================================
+# SIDEBAR
+# =========================================================
 
 with st.sidebar:
 
@@ -139,6 +160,7 @@ with st.sidebar:
             "🏠 Dashboard",
             "📷 AI Tree Diagnosis",
             "📝 Tree Survey",
+            "🌳 Tree Inventory",
             "🗺️ Health Map",
             "📊 Model Performance",
             "ℹ️ About"
