@@ -121,28 +121,7 @@ div[data-testid="stMetric"] {
 # SESSION STATE
 # =========================================================
 
-if "tree_inventory" not in st.session_state:
 
-    st.session_state.tree_inventory = pd.DataFrame(
-        columns=[
-            "Tree ID",
-            "Species",
-            "Health",
-            "Leaf Colour",
-            "Canopy Density",
-            "Disease Symptoms",
-            "Trunk Damage",
-            "Pest Infestation",
-            "Latitude",
-            "Longitude",
-            "Survey Date"
-        ]
-    )
-
-
-# =========================================================
-# SIDEBAR
-# =========================================================
 
 with st.sidebar:
 
