@@ -1,4 +1,4 @@
-                del st.session_state["latest_prediction"]
+
                 st.success("Tree survey saved to the inventory.")
                 st.rerun()
 
