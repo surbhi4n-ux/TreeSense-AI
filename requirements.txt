@@ -1,8 +1,8 @@
 streamlit
-tensorflow
-numpy
 pandas
-Pillow
-scikit-learn
+numpy
+pillow
 folium
 streamlit-folium
+plotly
+scikit-learn
