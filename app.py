@@ -139,7 +139,6 @@ with st.sidebar:
             "🏠 Dashboard",
             "📷 AI Tree Diagnosis",
             "📝 Tree Survey",
-            "🌳 Tree Inventory",
             "🗺️ Health Map",
             "📊 Model Performance",
             "ℹ️ About"
