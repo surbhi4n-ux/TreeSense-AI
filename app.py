@@ -50,7 +50,7 @@ section[data-testid="stSidebar"] * {
 
 /* Metric cards */
 div[data-testid="stMetric"] {
-    background-color: white;
+    background-color: green;
     border: 1px solid #dce8df;
     padding: 18px;
     border-radius: 14px;
@@ -59,7 +59,7 @@ div[data-testid="stMetric"] {
 
 /* Buttons */
 .stButton > button {
-    background-color: #1f6b45;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 8px;
@@ -81,7 +81,7 @@ div[data-testid="stMetric"] {
 
 /* General cards */
 .tree-card {
-    background-color: white;
+    background-color: green;
     padding: 22px;
     border-radius: 14px;
     border: 1px solid #dce8df;
@@ -90,7 +90,7 @@ div[data-testid="stMetric"] {
 }
 
 .status-healthy {
-    background-color: #dff3e5;
+    background-color: #000000;
     color: #176b36;
     padding: 10px;
     border-radius: 8px;
@@ -98,7 +98,7 @@ div[data-testid="stMetric"] {
 }
 
 .status-stressed {
-    background-color: #fff1cf;
+    background-color: #000000;
     color: #9a6400;
     padding: 10px;
     border-radius: 8px;
@@ -106,7 +106,7 @@ div[data-testid="stMetric"] {
 }
 
 .status-diseased {
-    background-color: #ffe0e0;
+    background-color: #green;
     color: #a72a2a;
     padding: 10px;
     border-radius: 8px;
@@ -696,7 +696,6 @@ elif page == "📝 Tree Survey":
 # TREE INVENTORY
 # =========================================================
 
-elif page == "🌳 Tree Inventory":
 
     page_header(
         "🌳 Tree Inventory",
