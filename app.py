@@ -27,7 +27,7 @@ st.markdown("""
 
 /* Main application */
 .stApp {
-    background-color: #f4f8f3;
+    background-color: #f000000;
 }
 
 /* Main headings */
